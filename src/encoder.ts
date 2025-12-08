@@ -1,5 +1,5 @@
 /**
- * httpforger - URL Encoding Utilities
+ * requestr - URL Encoding Utilities
  */
 
 import type { EncodingType } from "./types";

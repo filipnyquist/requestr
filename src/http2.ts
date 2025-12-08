@@ -1,5 +1,5 @@
 /**
- * httpforger - HTTP/2 Support
+ * requestr - HTTP/2 Support
  *
  * HTTP/2 uses binary framing instead of text-based HTTP/1.x.
  * This module provides raw HTTP/2 frame construction and parsing.

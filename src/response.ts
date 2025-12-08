@@ -1,5 +1,5 @@
 /**
- * httpforger - Response Parser and Analyzer
+ * requestr - Response Parser and Analyzer
  */
 
 import type { RawResponse } from "./types";

@@ -1,5 +1,5 @@
 /**
- * httpforger - Main RawHttp Client Class
+ * requestr - Main RawHttp Client Class
  */
 
 import type {

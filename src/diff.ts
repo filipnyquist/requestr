@@ -1,5 +1,5 @@
 /**
- * httpforger - Diff Utilities for Request/Response Comparison
+ * requestr - Diff Utilities for Request/Response Comparison
  */
 
 import type {

@@ -1,5 +1,5 @@
 {
-  "name": "httpforger",
+  "name": "requestr",
   "version": "1.0.0",
   "description": "A Bun.js library for sending raw HTTP/HTTPS requests with support for intentionally malformed payloads. For security testing and protocol research.",
   "module": "dist/index.js",

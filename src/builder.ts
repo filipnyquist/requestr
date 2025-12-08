@@ -1,5 +1,5 @@
 /**
- * httpforger - Request Builder
+ * requestr - Request Builder
  * Fluent API for constructing HTTP requests
  */
 

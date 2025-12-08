@@ -1,5 +1,5 @@
 /**
- * httpforger - Type definitions
+ * requestr - Type definitions
  */
 
 // ============================================================================

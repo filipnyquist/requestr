@@ -1,5 +1,5 @@
 /**
- * httpforger - Fetch Wrapper
+ * requestr - Fetch Wrapper
  * Provides a fetch-based HTTP client with timing support and RequestBuilder integration
  */
 

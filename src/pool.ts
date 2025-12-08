@@ -1,5 +1,5 @@
 /**
- * httpforger - Connection Pool for Keep-Alive Connections
+ * requestr - Connection Pool for Keep-Alive Connections
  */
 
 import type { TLSOptions, PooledConnection } from "./types";

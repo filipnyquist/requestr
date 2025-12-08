@@ -1,5 +1,5 @@
 /**
- * httpforger - Unified HTTP Client
+ * requestr - Unified HTTP Client
  * Swiss-army knife HTTP client supporting fetch, raw HTTP/1.x, and HTTP/2
  */
 

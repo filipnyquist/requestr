@@ -1,5 +1,5 @@
 /**
- * httpforger - A Bun.js library for sending raw HTTP/HTTPS requests
+ * requestr - A Bun.js library for sending raw HTTP/HTTPS requests
  * Supports intentionally malformed payloads for security testing and protocol research
  *
  * WARNING: This library is intended for authorized security testing only.
