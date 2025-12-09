@@ -1,4 +1,4 @@
-# requestr
+# requestrr
 
 A Bun.js HTTP toolkit with three backends: **fetch** (standard), **raw HTTP/1.x** (byte-level control), and **HTTP/2** (frame-level control). Built for security testing with full support for malformed requests.
 
@@ -7,13 +7,13 @@ A Bun.js HTTP toolkit with three backends: **fetch** (standard), **raw HTTP/1.x*
 ## Installation
 
 ```bash
-bun add requestr
+bun add requestrr
 ```
 
 ## Quick Start
 
 ```typescript
-import HttpClient from "requestr";
+import HttpClient from "requestrr";
 
 const http = new HttpClient();
 
@@ -103,7 +103,7 @@ response.analyzer.getCookies();
 For security testing with full byte-level control:
 
 ```typescript
-import HttpClient, { RawHttp } from "requestr";
+import HttpClient, { RawHttp } from "requestrr";
 
 const http = new HttpClient();
 
@@ -208,7 +208,7 @@ RawHttp.methodOverride({
 Binary frame-level control for HTTP/2 testing:
 
 ```typescript
-import { Http2Client, Http2FrameBuilder, Http2Settings, HTTP2_PREFACE } from "requestr";
+import { Http2Client, Http2FrameBuilder, Http2Settings, HTTP2_PREFACE } from "requestrr";
 
 const http = new HttpClient();
 
@@ -269,7 +269,7 @@ const result = await client.sendRawFrames({
 ### HPACK Compression
 
 ```typescript
-import { HpackEncoder, HpackDecoder } from "requestr";
+import { HpackEncoder, HpackDecoder } from "requestrr";
 
 const encoder = new HpackEncoder();
 const decoder = new HpackDecoder();
@@ -302,7 +302,7 @@ console.log(response.timing?.connectionDuration);
 ### URL Encoding
 
 ```typescript
-import { Encoder } from "requestr";
+import { Encoder } from "requestrr";
 
 Encoder.encode("../etc/passwd", "url"); // %2E%2E%2Fetc%2Fpasswd
 Encoder.encode("../etc/passwd", "double-url"); // %252E%252E%252Fetc%252Fpasswd
@@ -316,7 +316,7 @@ Encoder.pathTraversalVariants(3); // ["../../../", "..\\..\\..\\", "%2e%2e%2f...
 ### Request/Response Diffing
 
 ```typescript
-import { Diff } from "requestr";
+import { Diff } from "requestrr";
 
 const diff = Diff.compareResponses(response1, response2);
 console.log(Diff.summarize(diff));
@@ -329,7 +329,7 @@ if (diff.timing?.ttfbDiff) {
 ### Connection Pooling
 
 ```typescript
-import { ConnectionPool } from "requestr";
+import { ConnectionPool } from "requestrr";
 
 const pool = new ConnectionPool({ maxConnectionsPerHost: 6 });
 const conn = await pool.acquire("example.com", 80, "http");
