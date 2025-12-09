@@ -1,5 +1,5 @@
 {
-  "name": "requestr",
+  "name": "requestrr",
   "version": "1.0.0",
   "description": "A Bun.js library for sending raw HTTP/HTTPS requests with support for intentionally malformed payloads. For security testing and protocol research.",
   "module": "dist/index.js",
@@ -29,7 +29,7 @@
     "malformed",
     "bun"
   ],
-  "author": "",
+  "author": "Filip Nyquist <fnyquist@pm.me>",
   "license": "MIT",
   "engines": {
     "bun": ">=1.0.0"

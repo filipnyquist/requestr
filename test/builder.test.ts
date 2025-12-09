@@ -131,7 +131,9 @@ describe("RequestBuilder", () => {
 
   describe("connection options", () => {
     test("extracts connection options from URL", () => {
-      const builder = new RequestBuilder().url("https://secure.example.com/api");
+      const builder = new RequestBuilder().url(
+        "https://secure.example.com/api"
+      );
 
       const options = builder.getConnectionOptions();
       expect(options.host).toBe("secure.example.com");
