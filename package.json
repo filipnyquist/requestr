@@ -30,6 +30,10 @@
     "bun"
   ],
   "author": "Filip Nyquist <fnyquist@pm.me>",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/filipnyquist/requestrr"
+  },
   "license": "MIT",
   "engines": {
     "bun": ">=1.0.0"
